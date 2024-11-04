@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+ header{
+  top: 0;
+  position: sticky;
+ }
+ header nav{
+   background-color: gray;
+    display: flex;
+    padding: 15px;
+    margin: 3px;
+    gap: 40px;
+    /* justify-content: space-between; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+
+ header nav a:hover{
+  color:darkgray
+ }
+
+  header nav a{
+    text-decoration: none;
+    color: black;
+   
+  }
+    section div img{
+      margin-top: 50px;
+      padding-left: 15px;
+      border-radius: 40px;
+      box-shadow: rgba(0,0, 0, 0) 0px 22px 70px 4px;
+    }
+
+    .home{
+       display: flex;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: justify;
+       gap: 50px;
+       height: 75vh;
+       padding-right: 30px;
+       width: 100%;
+       background-color:beige;
+    }
+    .text1{
+       margin-top: 150px;
+    
+    }
+    
+    div h1
+    {
+     color:brown;
+    
+    }
+
+div p
+{
+  font-style: italic;
+  color: cadetblue;
+}
+#ski
+{
+  background-color: cornsilk;
+  text-align: center;
+  height: 70vh;
+  font-size: 3rem;
+  margin: 30px;
+}
+       
+
+
+.Skills{
+    height: 100vh; 
+    width: 100%; 
+     background-color:aquamarine; 
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+     justify-content: center; 
+  } 
+ 
+  /* .ana{
+    align-items: center;
+  flex-wrap: wrap;
+  } */
+
+  .Skills .skill
+  {
+    height: 150px;
+    width: 350px;
+    background-color: rgb(202,202,98);
+    display: flex;
+    border-radius: 5px;
+    font-size: 35px;
+    flex-wrap: wrap; 
+     justify-content: center; 
+    align-content: center;
+    text-align: center;
+    /* margin-bottom: 30px; */
+  }
+
+ .skill:hover
+ {
+  background-color: brown;
+  transition: all ease 1s;
+  transform: translateY(-10px);
+ }
+
+
+.footer
+{
+
+  height: 30vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
